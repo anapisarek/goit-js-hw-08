@@ -1,34 +1,29 @@
 {
-  "name": "parcel-project-template",
-  "version": "2.0.0",
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
   "description": "",
-  "homepage": "https://marcinnieradka.github.io/goit-js-hw-08",
+  "homepage": "https://kamiltrzmiel.github.io/goit-js-hw-09",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/kamiltrzmiel/goit-js-hw-09.git"
   },
   "keywords": [],
-  "author": "GMS <gumisdbz@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
-  },
-  "dependencies": {
-    "@vimeo/player": "^2.18.0",
-    "lodash": "^4.17.21",
-    "lodash.throttle": "^4.1.1",
-    "modern-normalize": "^1.1.0",
-    "simplelightbox": "^2.12.1"
+    "url": "https://github.com/kamiltrzmiel/goit-js-hw-09/issues"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "parcel": "^2.8.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "notiflix": "^3.2.6"
+  }
 }
